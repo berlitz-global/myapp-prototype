@@ -8,11 +8,11 @@ import { WebView } from 'react-native-webview';
 export default function TabTwoScreen() {
   return (
       <WebView 
-        source={{ uri: 'https://portal.berlitz-platforms.io' }} 
+        source={{ uri: 'https://portal.berlitz-platforms.io/learning-path' }} 
         allowsBackForwardNavigationGestures={true} 
         allowFileAccess={true}
         pullToRefreshEnabled={true}
-        style={{ marginTop: 0}} />
+        style={{ marginTop: 30}} />
     
   );
 }
